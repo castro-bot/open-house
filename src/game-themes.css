@@ -1,0 +1,15 @@
+/* El tema de #app cubre toda la pantalla exterior. El canvas de Phaser no se pinta aquí. */
+#app[data-game="cipher"] {
+  --theme-ink: var(--palette-5);
+  --theme-page: var(--palette-2);
+  --theme-accent: #ffd27d;
+  --theme-surface: var(--palette-1);
+  --theme-stage: var(--palette-1);
+  --theme-overlay: #eaf6ffde;
+  --theme-font: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --shell-card: var(--palette-1);
+  --shell-line: var(--palette-5);
+  --shell-soft: #ffd27d;
+  --shell-cta: var(--palette-5);
+  --shell-cta-ink: var(--palette-1);
+}
